@@ -5,7 +5,7 @@
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     }
     body {
-      background: rgb(42, 46, 45);
+      background: rgb(16, 24, 22);
       color: aliceblue;
     }
     #header {
@@ -30,6 +30,10 @@
       text-decoration: none;
       color: aliceblue;
     }
+    h1 i {
+        padding-right: 5px;
+        padding-top: 5px;
+    }
     nav ul li {
       display: inline-block;
       list-style: none;
@@ -45,16 +49,96 @@
       content: '';
       width: 0;
       height: 3px;
-      background: #62e0ff;
+      background: #adfff8;
       position: absolute;
       left: 0;
       bottom: -6px;
       transition: 0.5s;
     }
     nav ul li a:hover::after{
-      width: 100%
+      width: 100%;
     }
     h1 a:hover {
-      color: #62e0ff
+      color: #adfff8;
       
     }
+    .header-text{
+        margin-top: 20%;
+        font-size: 3em;
+        margin-left: 5%;
+    }
+    .header-text h2{
+        margin-top: 20px;
+        margin-left: 5%;
+    }
+    /* ----------About------------ */
+
+    #about{
+        padding: 80px 0;
+        color: beige;
+    }
+    .row {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .about-col-1 {
+        flex-basis: 35%; 
+        margin-left: 2%;
+    }
+    .about-col-1 img{
+        width: 100%;
+        border-radius: 15px;
+    }
+    .about-col-2{
+        flex-basis: 60%;
+        
+    }
+    .about-col-2 p {
+        font-size: 20px;
+        padding-right: 50px;
+    }
+    .subtitle {
+        font-size: 60px;
+        font-weight: 600;
+        color: aliceblue;
+        text-decoration: underline;
+    }
+/* ----------------Portfolio---------------- */
+#portfolio{
+    padding: 50px 0;
+    margin-left: 2%;
+}
+.work-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.work1 {
+    border-radius: 10px;
+    position: relative;
+    text-align: center;
+ } 
+ .link-1 {
+    position: absolute;
+    bottom: 16px;
+    left: 0px;
+    border: #adfff8 solid 1px;
+ }
+
+.work1 img{
+    width: 400px;
+    height: 400px;
+    border-radius: 10px;
+}
+ .work {
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+}
+.work img{
+    width: 300px;
+    height: 300px;
+    border-radius: 10px
+}
