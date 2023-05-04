@@ -2,28 +2,19 @@
 
 ## Description
 
-Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
-
-- What was your motivation?
-- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
-- What problem does it solve?
-- What did you learn?
+In this project I was to create a web portfolio page. Building a web portfolio is important in showcasing your work to potential employers. It also allowed me to practice what I've learned over the past few weeks and learn a few new things in the process such as creating hover effects on links and linking to external pages.
 
 
 ## Usage
 
-Provide instructions and examples for use. Include screenshots as needed.
+Site is depolyed here: https://peshey.github.io/C2-Web-Portfolio-Project/
 
 ![web portfolio page](images/web-portfolio.PNG)
 
   
 ## Credits
 
-List your collaborators, if any, with links to their GitHub profiles.
-
-If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
-
-If you followed tutorials, include links to those here as well.
+Some inspiration for the page layout as well as the effects on some of the links in the nav bar and footer came from Easy Tutorials youtube video located here: https://www.youtube.com/watch?v=0YFrGy_mzjY&t=6586s
 
 ## License
 
